@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "Metrix" }];
+  return [{ title: "NutriCart" }];
 }
 
 export default function Home() {

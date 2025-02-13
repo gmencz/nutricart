@@ -1,7 +1,7 @@
 import type { Route } from "./+types/index";
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "Metrix | Dashboard" }];
+  return [{ title: "NutriCart | Dashboard" }];
 }
 
 export default function Home() {

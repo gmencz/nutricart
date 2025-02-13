@@ -3,7 +3,7 @@ import type { Route } from "./+types/create-account";
 import { createSupabaseServerClient } from "~/clients/supabase";
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "Metrix | Create Account" }];
+  return [{ title: "NutriCart | Create Account" }];
 }
 
 export async function action({ request }: Route.ActionArgs) {
